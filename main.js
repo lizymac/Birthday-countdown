@@ -11,7 +11,7 @@ const currentYear = new Date().getFullYear();
 const birthdayTime = new Date(`January 12 ${currentYear + 1} 00:00:00`);
 
 //background year
-year.innerText = currentYear + 1;
+// year.innerText = currentYear + 1;
 
 function updateCountdown() {
   const currentTime = new Date();
